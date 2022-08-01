@@ -1,0 +1,38 @@
+.beer {
+  height: 70rem;
+  display: flex;
+  gap: 10rem;
+
+  &__img-wrapper {
+    height: 100%;
+  }
+
+  &__img {
+    height: 100%;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  &__name {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+  }
+
+  &__list-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-bottom: .5rem;
+  }
+}

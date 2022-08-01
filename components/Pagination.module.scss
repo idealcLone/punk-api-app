@@ -1,0 +1,13 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 2.4rem;
+  gap: 1rem;
+
+  img {
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+}
